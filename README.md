@@ -1,27 +1,32 @@
-# Charts
+# D3 Gauge Charts
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+#Steps
 
-## Development server
+#1. Install Jquery
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+npm install --save jquery
 
-## Code scaffolding
+npm install -D @types/jquery
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#2. Install Bootstrap
 
-## Build
+npm install --save bootstrap@4
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#3. Install d3
 
-## Running unit tests
+npm install --save d3
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install --save-dev @types/d3
 
-## Running end-to-end tests
+# Now add following paths to angular.json file
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# styles[]
+"node_modules/bootstrap/dist/css/bootstrap.css"
 
-## Further help
+# scripts[]
+"node_modules/jquery/dist/jquery.js",
+"node_modules/bootstrap/dist/js/bootstrap.js"
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
