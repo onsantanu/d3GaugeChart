@@ -29,4 +29,5 @@ npm install --save-dev @types/d3
 
 
 
+![image](https://github.com/onsantanu/d3GaugeChart/assets/60888508/084938a6-a95f-4d58-8cc2-677df1403ef6)
 
